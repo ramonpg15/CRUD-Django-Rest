@@ -1,0 +1,47 @@
+[
+{
+  "model": "biblioteca.libros",
+  "pk": 4,
+  "fields": {
+    "nombre": "1984",
+    "autor": "Orwell",
+    "editorial": "Porrua"
+  }
+},
+{
+  "model": "biblioteca.libros",
+  "pk": 5,
+  "fields": {
+    "nombre": "el arte de la guerra",
+    "autor": "tzu",
+    "editorial": "ghandi"
+  }
+},
+{
+  "model": "biblioteca.prestatario",
+  "pk": 1,
+  "fields": {
+    "libro_prestado": 4,
+    "nombre": "Ramon",
+    "apellido": "Perez"
+  }
+},
+{
+  "model": "biblioteca.prestamos",
+  "pk": 1,
+  "fields": {
+    "nombre_libro_prestado": 4,
+    "fecha_prestamo": "2022-07-01",
+    "nombre_prestatario": 1
+  }
+},
+{
+  "model": "biblioteca.prestamos",
+  "pk": 2,
+  "fields": {
+    "nombre_libro_prestado": 4,
+    "fecha_prestamo": "2022-07-01",
+    "nombre_prestatario": 1
+  }
+}
+]

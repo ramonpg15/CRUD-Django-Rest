@@ -1,0 +1,171 @@
+[
+{
+  "model": "escuelav1.materias",
+  "pk": 3,
+  "fields": {
+    "nombre": "Fisica",
+    "cupos": "26",
+    "area": "Ciencias"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 5,
+  "fields": {
+    "nombre": "Programacion orientada o objetos",
+    "cupos": "20",
+    "area": "Programacion"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 6,
+  "fields": {
+    "nombre": "IA",
+    "cupos": "20",
+    "area": "Datos"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 7,
+  "fields": {
+    "nombre": "Musica",
+    "cupos": "20",
+    "area": "Artes"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 8,
+  "fields": {
+    "nombre": "Economia",
+    "cupos": "20",
+    "area": "Economia"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 9,
+  "fields": {
+    "nombre": "Algebra",
+    "cupos": "20",
+    "area": "Matematicas"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 10,
+  "fields": {
+    "nombre": "Base de datos",
+    "cupos": "20",
+    "area": "Datos"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 11,
+  "fields": {
+    "nombre": "Ingenieria de requerimientos",
+    "cupos": "20",
+    "area": "Software"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 12,
+  "fields": {
+    "nombre": "Administracion",
+    "cupos": "12",
+    "area": "Administracion"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 13,
+  "fields": {
+    "nombre": "SO",
+    "cupos": "20",
+    "area": "SO"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 14,
+  "fields": {
+    "nombre": "SO",
+    "cupos": "20",
+    "area": "SO"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 15,
+  "fields": {
+    "nombre": "SO",
+    "cupos": "20",
+    "area": "SO"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 16,
+  "fields": {
+    "nombre": "SO",
+    "cupos": "20",
+    "area": "SO"
+  }
+},
+{
+  "model": "escuelav1.materias",
+  "pk": 17,
+  "fields": {
+    "nombre": "SO",
+    "cupos": "20",
+    "area": "SO"
+  }
+},
+{
+  "model": "escuelav1.profesores",
+  "pk": 2,
+  "fields": {
+    "materia_impartida": 3,
+    "nombre": "German",
+    "apellido": "rivera",
+    "email": "grivera@mail.com"
+  }
+},
+{
+  "model": "escuelav1.alumnos",
+  "pk": 3,
+  "fields": {
+    "materia": 7,
+    "nombre": "Diana",
+    "apellido": "Perez",
+    "email": "dperez@mail.com",
+    "boleta": "201860487"
+  }
+},
+{
+  "model": "escuelav1.alumnos",
+  "pk": 4,
+  "fields": {
+    "materia": 8,
+    "nombre": "Dulce",
+    "apellido": "Perez",
+    "email": "dperez@mail.com",
+    "boleta": "201860487"
+  }
+},
+{
+  "model": "escuelav1.alumnos",
+  "pk": 5,
+  "fields": {
+    "materia": 11,
+    "nombre": "Tomasa",
+    "apellido": "Gaytan",
+    "email": "tgaytan@mail.com",
+    "boleta": "201860487"
+  }
+}
+]

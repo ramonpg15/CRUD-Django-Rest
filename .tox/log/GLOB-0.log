@@ -1,0 +1,66 @@
+action: GLOB, msg: packaging
+cwd: /home/ramon/Escritorio/Proyecto/proyecto/BootCamp2022Jul/django_rest/escuela
+cmd: /home/ramon/Escritorio/Proyecto/proyecto/BootCamp2022Jul/django_rest/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing testing.egg-info/PKG-INFO
+writing dependency_links to testing.egg-info/dependency_links.txt
+writing top-level names to testing.egg-info/top_level.txt
+reading manifest file 'testing.egg-info/SOURCES.txt'
+writing manifest file 'testing.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating testing-1.0
+creating testing-1.0/escuela
+creating testing-1.0/escuelav1
+creating testing-1.0/testing.egg-info
+copying files to testing-1.0...
+copying setup.cfg -> testing-1.0
+copying setup.py -> testing-1.0
+copying escuela/__init__.py -> testing-1.0/escuela
+copying escuela/asgi.py -> testing-1.0/escuela
+copying escuela/settings.py -> testing-1.0/escuela
+copying escuela/urls.py -> testing-1.0/escuela
+copying escuela/wsgi.py -> testing-1.0/escuela
+copying escuelav1/__init__.py -> testing-1.0/escuelav1
+copying escuelav1/admin.py -> testing-1.0/escuelav1
+copying escuelav1/api.py -> testing-1.0/escuelav1
+copying escuelav1/apps.py -> testing-1.0/escuelav1
+copying escuelav1/models.py -> testing-1.0/escuelav1
+copying escuelav1/serializer.py -> testing-1.0/escuelav1
+copying escuelav1/tests.py -> testing-1.0/escuelav1
+copying escuelav1/urls.py -> testing-1.0/escuelav1
+copying escuelav1/views.py -> testing-1.0/escuelav1
+copying testing.egg-info/PKG-INFO -> testing-1.0/testing.egg-info
+copying testing.egg-info/SOURCES.txt -> testing-1.0/testing.egg-info
+copying testing.egg-info/dependency_links.txt -> testing-1.0/testing.egg-info
+copying testing.egg-info/top_level.txt -> testing-1.0/testing.egg-info
+Writing testing-1.0/setup.cfg
+creating '.tox/dist/testing-1.0.zip' and adding 'testing-1.0' to it
+adding 'testing-1.0'
+adding 'testing-1.0/escuela'
+adding 'testing-1.0/escuelav1'
+adding 'testing-1.0/testing.egg-info'
+adding 'testing-1.0/setup.py'
+adding 'testing-1.0/PKG-INFO'
+adding 'testing-1.0/setup.cfg'
+adding 'testing-1.0/escuela/wsgi.py'
+adding 'testing-1.0/escuela/settings.py'
+adding 'testing-1.0/escuela/__init__.py'
+adding 'testing-1.0/escuela/asgi.py'
+adding 'testing-1.0/escuela/urls.py'
+adding 'testing-1.0/escuelav1/serializer.py'
+adding 'testing-1.0/escuelav1/api.py'
+adding 'testing-1.0/escuelav1/apps.py'
+adding 'testing-1.0/escuelav1/views.py'
+adding 'testing-1.0/escuelav1/admin.py'
+adding 'testing-1.0/escuelav1/models.py'
+adding 'testing-1.0/escuelav1/tests.py'
+adding 'testing-1.0/escuelav1/__init__.py'
+adding 'testing-1.0/escuelav1/urls.py'
+adding 'testing-1.0/testing.egg-info/dependency_links.txt'
+adding 'testing-1.0/testing.egg-info/PKG-INFO'
+adding 'testing-1.0/testing.egg-info/top_level.txt'
+adding 'testing-1.0/testing.egg-info/SOURCES.txt'
+removing 'testing-1.0' (and everything under it)

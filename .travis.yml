@@ -1,0 +1,10 @@
+language: python
+python:
+  -"3.2.12"
+
+install:
+  - pip install -r escuela/requirements/base.txt
+  - pip install -r escuela/requirements/dev.txt
+
+script:
+  - python manage.py test

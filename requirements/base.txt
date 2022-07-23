@@ -1,0 +1,5 @@
+#Version de Django a utilizar
+#pip install -r base.txt para instalar
+django==3.2.12
+djangorestframework
+djangorestframework_simplejwt
